@@ -1,26 +1,28 @@
-<div> <label for="first_name">first name</label>
-    <input type="text" name="first_name" value={{old('first_name',optional($post ?? null)->first_name)}}>
+<div class="form-group"> 
+    <label for="first_name">first name</label>
+    <input  id="first_name" type="text" name="first_name" value={{old('first_name',optional($post ?? null)->first_name)}}>
 </div>
-<div><label for="lastName">Last Name</label>
-    <input type="text" name="lastName" value={{old('lastName',optional($post ?? null)->lastName)}}>
+<div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input id="lastName" type="text" name="lastName" value={{old('lastName',optional($post ?? null)->lastName)}}>
 </div>
-<div>
+<div class="form-group">
     <label for="Address">Address</label>
-    <input type="text" name="Address" value={{old('Address',optional($post ?? null)->Address)}}>
+    <input id="Address" type="text" name="Address" value={{old('Address',optional($post ?? null)->Address)}}>
 </div>
-<div>
+<div class="form-group">
     <label for="password">pwd</label>
-    <input type="password" name="password" value={{old('password',optional($post ?? null)->password)}}>
+    <input id="password" type="password" name="password" value={{old('password',optional($post ?? null)->password)}}>
 </div>
-<div>
+<div class="form-group">
     <label for="phone">Phone</label>
-    <input type="text" name="phone" value={{old('phone',optional($post ?? null)->phone)}}>
+    <input id="phone" type="text" name="phone" value={{old('phone',optional($post ?? null)->phone)}}>
 </div>
-<div>
+<div class="form-group">
     <label for="email">Mail</label>
-    <input type="email" name="email" value={{old('email',optional($post ?? null)->email)}}>
+    <input id="email" type="email" name="email" value={{old('email',optional($post ?? null)->email)}}>
 </div>
-<div>
+<div class="form-group">
     <label for="status">status</label>
-    <input type="text" name="status" value={{old('status',optional($post ?? null)->status)}}>
+    <input id="status" type="text" name="status" value={{old('status',optional($post ?? null)->status)}}>
 </div>
